@@ -1,0 +1,20 @@
+{
+  "name": "auto1",
+  "version": "1.0.0",
+  "description": "wdio dependencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^5.4.17",
+    "@wdio/local-runner": "^5.4.17",
+    "@wdio/mocha-framework": "^5.4.14",
+    "@wdio/selenium-standalone-service": "^5.4.14",
+    "@wdio/sync": "^5.4.14",
+    "chai": "^4.2.0",
+    "webdriverio": "^5.4.17"
+  }
+}
