@@ -1,5 +1,6 @@
 exports.config = {
     runner: 'local',
+    outputDir: './reports',
     specs: [
         './tests/spec/*.spec.js'
     ],
@@ -19,6 +20,9 @@ exports.config = {
     services: ['selenium-standalone'],
 
     framework: 'mocha',
+    reporters: [
+    'dot'
+],
     mochaOpts: {
         ui: 'bdd',
         timeout: 60000
