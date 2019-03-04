@@ -1,6 +1,6 @@
 require('dotenv').config();
 
-describe('Open Mercury Travels home page', function() {
+describe('Open Mercury Travels home page and log in', function() {
   it('should allow the user to log in', function() {
     browser.url('http://newtours.demoaut.com/mercurywelcome.php');
     const signinlink = $('=SIGN-ON');
