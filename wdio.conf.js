@@ -25,6 +25,7 @@ exports.config = {
 ],
     mochaOpts: {
         ui: 'bdd',
+        compilers: ['js:@babel/register'],
         timeout: 60000
     },
 
@@ -35,5 +36,6 @@ exports.config = {
     global.expect = chai.expect;
     chai.assert();
     chai.Should();
+    require('@babel/register');
 }
 }
